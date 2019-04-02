@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var html = document.documentElement;
         if(html.clientWidth > 320){
             if(html.clientWidth < 640){
-              html.style.fontSize = ~~(html.clientWidth / 20) + 'px'
+              html.style.fontSize = (html.clientWidth / 20) + 'px'
             }else{
                 html.style.fontSize = '32px'
             }
