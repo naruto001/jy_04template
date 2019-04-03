@@ -204,7 +204,7 @@ a:focus {
 .page_01_03 {
     position:absolute;
     top:0;
-    left:0;
+    left:-0.3rem;
     width:13.38rem;
     z-index:1;
 }
