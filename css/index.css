@@ -142,6 +142,14 @@ a:focus {
     font-family:mzd;
     src:url("mzd.ttf");
 }
+@font-face {
+    font-family:hwxk;
+    src:url("hwxk.ttf");
+}
+@font-face {
+    font-family:ksf;
+    src:url("ksf.ttf");
+}
 /*  首页  */
 
 /*music*/
@@ -261,4 +269,67 @@ a:focus {
     font-size:4.6rem;
     color:#e70009;
     font-family:mzd;
+    font-weight:bold;
+}
+.page_01_11 {
+    position:absolute;
+    right:4.2rem;
+    top:4.68rem;
+    width:1.0rem;
+    height:1.94rem;
+}
+.page_01_11 p {
+    background:url(../img/yz.png) no-repeat center center;
+    background-size:100% 100%;
+    width:100%;
+    height:100%;
+    font-family:hwxk;
+    color:#fff;
+    font-size:0.68rem;
+    text-align:center;
+    padding-top:0.2rem;
+}
+.page_01_12 {
+    position:absolute;
+    left:1.5rem;
+    top:8.8rem;
+    width:2.7rem;
+}
+.page_01_12 p {
+    font-size:0.4rem;
+    color:#e70009;
+    /*font-weight:bold;*/
+}
+.page_01_13 {
+    position:absolute;
+    left:1.74rem;
+    top:9.48rem;
+    width:2.88rem;
+    height:0.8rem;
+}
+.page_01_13 p {
+    background:url(../img/redBg.png) no-repeat center center;
+    background-size:100% 100%;
+    font-family:ksf;
+    color:#fff;
+    font-size:0.64rem;
+    text-align:center;
+    line-height:0.8rem;
+}
+.page_01_14 {
+    position:absolute;
+    right:5.5rem;
+    top:5.18rem;
+    width:1.0rem;
+    height:4.6rem;
+    z-index:1;
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+.page_01_14 p {
+    font-size:0.8rem;
+    color:#666;
+    text-align:center;
+    width:4.6rem;
+    overflow:hidden;
 }
