@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded',function(){
     var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
     function resize() {
         var html = document.documentElement;
-        if(html.clientWidth > 320){
-            if(html.clientWidth < 640){
-              html.style.fontSize = (html.clientWidth / 20) + 'px'
+        if(html.clientWidth > 375){
+            if(html.clientWidth < 750){
+              html.style.fontSize = (html.clientWidth / 15) + 'px';
             }else{
-                html.style.fontSize = '32px'
+                html.style.fontSize = '50px';
             }
         }else{
-            html.style.fontSize = '16px'
+            html.style.fontSize = '25px';
         }
     };
-    resize()
-    window.addEventListener(resizeEvt, resize, false)
+    resize();
+    window.addEventListener(resizeEvt, resize, false);
 })

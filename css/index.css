@@ -138,7 +138,10 @@ a:focus {
     text-decoration: none;
 }
 /* end reset */
-
+@font-face {
+    font-family:mzd;
+    src:url("mzd.ttf");
+}
 /*  首页  */
 
 /*music*/
@@ -221,8 +224,8 @@ a:focus {
 }
 .page_01_06 {
     position:absolute;
-    right:0;
-    bottom:0.2rem;
+    right:-0.8rem;
+    bottom:0.4rem;
     width:9.74rem;
     z-index:1;
 }
@@ -242,8 +245,20 @@ a:focus {
 }
 .page_01_09 {
     position:absolute;
-    left:3.16rem;
+    left:20.4%;
     top:4.96rem;
     width:9.2rem;
     z-index:1;
+}
+.page_01_10 {
+    position:absolute;
+    left:5.1rem;
+    top:4.68rem;
+    width:4.72rem;
+    z-index:1;
+}
+.page_01_10 p {
+    font-size:4.6rem;
+    color:#e70009;
+    font-family:mzd;
 }
